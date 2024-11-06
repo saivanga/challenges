@@ -1,6 +1,6 @@
 let fibo = [0, 1];
 
-num = -30;
+num = 30;
 
 if (num = 1) {
   fibo.pop();
