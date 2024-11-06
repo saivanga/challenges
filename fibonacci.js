@@ -1,13 +1,13 @@
-let fibo = [0];
+const numberOfTerms = 10;
+let a = 0;
+let b = 1;
 
-num = 5;
+console.log(a);
+console.log(b);
 
-if (num = 1) {
-    
+for (let i = 2; i < numberOfTerms; i++) {
+  let c = a + b;
+  console.log(c);
+  a = b;
+  b = c;
 }
-
-while (fibo.length <= num) {
-  fibo.push(fibo[fibo.length - 2] + fibo[fibo.length - 1]);
-}
-
-console.log(fibo);
